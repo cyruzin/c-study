@@ -13,4 +13,6 @@ int main()
     *p += 1;
     // 32
     printf("%d\n", *p);
+    // 32
+    printf("%d\n", age);
 }
