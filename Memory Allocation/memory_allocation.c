@@ -5,7 +5,7 @@ int main()
 {
     int *ptr, count, arrSize;
 
-    printf("Inform the vector size: ");
+    printf("Inform the array size: ");
     scanf("%d", &arrSize);
 
     printf("Array size: %d\n", arrSize);
