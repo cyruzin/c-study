@@ -18,4 +18,6 @@ int main()
     printf("ID: %d\n", Book1.id);
     printf("Title: %s\n", Book1.title);
     printf("Author: %s\n", Book1.author);
+
+    return 0;
 }

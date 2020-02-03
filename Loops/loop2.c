@@ -9,4 +9,6 @@ int main()
         count++;
         printf("%d\n", count);
     } while (count < 10);
+
+    return 0;
 }

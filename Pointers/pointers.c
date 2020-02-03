@@ -15,4 +15,6 @@ int main()
     printf("%d\n", *p);
     // 32
     printf("%d\n", age);
+
+    return 0;
 }
