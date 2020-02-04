@@ -10,7 +10,7 @@ int main()
 
     printf("Array size: %d\n", arrSize);
 
-    if ((ptr = malloc(sizeof *ptr * arrSize)) == NULL)
+    if ((ptr = calloc(arrSize, sizeof *ptr)) == NULL)
     {
         printf("Could not allocate more memory\n");
         exit(EXIT_FAILURE);

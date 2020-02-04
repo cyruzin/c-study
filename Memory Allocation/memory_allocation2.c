@@ -3,12 +3,11 @@
 
 int main()
 {
-    int *ptr, count, arrSize;
+    char *ptr;
+    int arrSize;
 
     printf("Inform the array size: ");
-    scanf("%d", &arrSize);
-
-    printf("Array size: %d\n", arrSize);
+    scanf("%s", &arrSize);
 
     if ((ptr = malloc(sizeof *ptr * arrSize)) == NULL)
     {
@@ -18,17 +17,16 @@ int main()
 
     printf("Memory allocated successfully\n");
 
-    for (count = 0; count < arrSize; ++count)
+    printf("Increase the array size: ");
+    scanf("%s", &arrSize);
+
+    if ((ptr = realloc(ptr, sizeof *ptr * arrSize)) == NULL)
     {
-        ptr[count] = count + 1;
+        printf("Could not reallocate memory\n");
+        exit(EXIT_FAILURE);
     }
 
-    printf("Values: \n");
-
-    for (count = 0; count < arrSize; ++count)
-    {
-        printf("%d ", ptr[count]);
-    }
+    printf("Memory reallocated successfully\n");
 
     free(ptr);
     ptr = NULL;
