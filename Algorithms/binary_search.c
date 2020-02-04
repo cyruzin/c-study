@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "functions.h"
 
-int binarySearch(int vet[], int key, int size);
+#include "functions.h"
 
 int main()
 {
