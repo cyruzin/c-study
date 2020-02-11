@@ -34,7 +34,7 @@ int main()
 
        You have 5 numbers, so the first thing you need to do is 
        multiply each number from right to left increasing the 
-       potency, starting with zero. Then, you multiply the result
+       exponent, starting with zero. Then, you multiply the result
        with the current binary number.
 
        Example:
