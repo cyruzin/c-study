@@ -13,7 +13,7 @@ int main()
        13 / 2 ->  6 : 1
        6  / 2 ->  3 : 0
        3  / 2 ->  2 : 1
-       1  / 2 ->  2 : 1
+       2  / 2 ->  1 : 1
 
        Remember, always read from right to left.
        
