@@ -8,8 +8,11 @@ int main(int argc, char const *argv[])
 
     for (count = 1; count <= argc; count++)
     {
-        // Compile and test like this:
-        // gcc -o args args.c && ./args this is a test
+        /* Compile and test like this:
+           
+           gcc -o args args.c && ./args this is a test 
+        */
+
         printf("%d - argument: %s \n", count, argv[count - 1]);
     }
 

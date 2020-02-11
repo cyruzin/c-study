@@ -14,7 +14,10 @@ enum week
 int main()
 {
     enum week day;
+
     day = Wed;
+    
     printf("%d\n", day);
+    
     return 0;
 }
