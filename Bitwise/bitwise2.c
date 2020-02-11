@@ -63,7 +63,7 @@ int main()
          ------
           00001
 
-        11001 = 1
+        Result: 1
     */
     printf("Result of 27 & 5 is: %d\n", 27 & 5); // 1
 
