@@ -13,7 +13,7 @@
  * By doing this, the algorithm eliminates the half in which the target
  * value cannot lie in each iteration.
  **/
-int binarySearch(int vet[], int key, int size) {
+int binary_search(int vet[], int key, int size) {
   int inf = 0;
   int sup = size - 1;
   int middle;
@@ -33,7 +33,7 @@ int binarySearch(int vet[], int key, int size) {
 int main() {
   int numbers[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-  printf("Result: %d\n", binarySearch(numbers, 6, 10));
+  printf("Result: %d\n", binary_search(numbers, 6, 10));
 
   return 0;
 }
